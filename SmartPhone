@@ -1,0 +1,27 @@
+package poo.Ejercicio;
+
+public class SmartPhone extends SmartDevice {
+    String red;
+
+
+    public SmartPhone() {
+
+    }
+
+    public SmartPhone(String fabricante, String modelo, int capBateria, int serialNum, String red,String sistOperativo) {
+        super(fabricante, modelo, capBateria, serialNum,sistOperativo);
+        this.red = red;
+    }
+
+    @Override
+    public String toString() {
+        return "SmartPhone{" +
+                "red='" + red + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", capBateria=" + capBateria +
+                ", serialNum=" + serialNum +
+                ", sistOperativo='" + sistOperativo + '\'' +
+                '}';
+    }
+}
