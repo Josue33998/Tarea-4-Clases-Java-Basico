@@ -1,0 +1,28 @@
+package poo.Ejercicio;
+
+public class SmartDevice {
+
+    protected String fabricante;
+    protected String modelo;
+    int capBateria;
+    int serialNum;
+
+    String sistOperativo;
+
+    public SmartDevice(){
+
+    }
+
+
+
+    public SmartDevice(String fabricante, String modelo, int capBateria, int serialNum, String sistOperativo){
+       this.fabricante = fabricante;
+       this.modelo = modelo;
+       this.capBateria = capBateria;
+       this.serialNum = serialNum;
+       this.sistOperativo=sistOperativo;
+
+
+    }
+
+}
