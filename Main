@@ -1,0 +1,15 @@
+package poo.Ejercicio;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+        SmartPhone iphone= new SmartPhone("Apple","14 pro max",4332,23456,"5g","ios 16");
+
+        System.out.println(iphone);
+
+        SmartWatch appleWatch= new SmartWatch("Apple","series 7",400,34256,"watchos6","Sport");
+
+        System.out.println(appleWatch);
+    }
+}
